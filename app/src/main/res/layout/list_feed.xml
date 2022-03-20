@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/blue2"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/txtAuthor"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/lightRed"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="188dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="5dip"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/map_img"
+            android:layout_width="108dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/char_img"
+            android:layout_width="77dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtWin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:textAlignment="center"
+        android:textColor="@color/lightYellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="64dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/txtWin"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPerformance"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWin"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtPerformance2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWin"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="K/D/A"
+        android:textColor="@color/grey"
+        android:textSize="11sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/thumbnail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dip"
+        android:gravity="end"
+        android:textColor="@color/lightRed"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

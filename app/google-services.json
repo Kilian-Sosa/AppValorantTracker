@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "824738134637",
+    "project_id": "valorant-tracker-82f85",
+    "storage_bucket": "valorant-tracker-82f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824738134637:android:f2ed15ca3b68beabf59d64",
+        "android_client_info": {
+          "package_name": "dam.pgl.valorantTracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824738134637-j0k3einrfu5i4rgpd6vkkrg3p5is0a4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dam.pgl.valorantTracker",
+            "certificate_hash": "f9b6145e2cf08ad7e725a66a3e1d66a81a5b575c"
+          }
+        },
+        {
+          "client_id": "824738134637-cpkjnp4jces2mk041gja6jf2h01butck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzJ3z_rI2y3muPEwxMmSKYAkGoFgY2JTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824738134637-cpkjnp4jces2mk041gja6jf2h01butck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

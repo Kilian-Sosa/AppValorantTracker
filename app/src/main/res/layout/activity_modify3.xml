@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="25dip"
+    android:orientation="vertical"
+    android:background="@color/blue2" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="23dp" />
+
+            <ImageView
+                android:id="@+id/map_img"
+                android:layout_width="match_parent"
+                android:layout_height="124dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_gravity="center"
+                android:hint="Fecha de la partida"
+                android:inputType="date"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:visibility="invisible"
+                android:text="Error: Seleccione una fecha" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editNotes"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:background="@color/lightYellow"
+                android:ems="10"
+                android:hint="Notas:"
+                android:inputType="text|textMultiLine"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <Button
+                android:id="@id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MODIFICAR"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

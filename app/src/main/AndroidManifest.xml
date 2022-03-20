@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dam.pgl.films">
+    package="dam.pgl.valorantTracker">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
@@ -8,13 +8,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Films"
+        android:theme="@style/Theme.AppTheme"
         android:networkSecurityConfig="@xml/seguridad">
-        <activity android:name="movies.ResumenActivity"/>
-        <activity android:name="movies.ConfigurationActivity"/>
-        <activity android:name="movies.aboutmeActivity"/>
+        <activity android:name="app.RegisterActivity"/>
+        <activity android:name="app.CreationActivity1"/>
+        <activity android:name="app.CreationActivity2"/>
+        <activity android:name="app.CreationActivity3"/>
+        <activity android:name="app.DetailsActivity"/>
+        <activity android:name="app.ModifyActivity1"/>
+        <activity android:name="app.ModifyActivity2"/>
+        <activity android:name="app.ModifyActivity3"/>
+        <activity android:name="app.PassChangerActivity"/>
+        <activity android:name="app.VisualizeGames"/>
+        <activity android:name="app.AboutActivity"/>
+        <activity android:name="app.VisualizeUsers"/>
+        <activity android:name="app.HomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
-            android:name="movies.MainActivity"
+            android:name="app.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,5 +34,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

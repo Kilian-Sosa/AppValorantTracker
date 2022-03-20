@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Films</string>
+    <string name="app_name" translatable="false">Valorant Tracker</string>
+    <string name="labelExplanation" translatable="false">Introduzca el dominio deseado y posteriormente aparecerán las distintas opciones.</string>
+    <string name="me" translatable="false">Kilian Sosa Guillén 2ºDAM</string>
+
+    <string-array name="maps">
+        <item>Ascent</item>
+        <item>Bind</item>
+        <item>Breeze</item>
+        <item>Fracture</item>
+        <item>Haven</item>
+        <item>Icebox</item>
+        <item>Split</item>
+    </string-array>
+
+    <string-array name="characters">
+        <item>Astra</item>
+        <item>Breach</item>
+        <item>Brimstone</item>
+        <item>Chamber</item>
+        <item>Cypher</item>
+        <item>Jett</item>
+        <item>KAY/0</item>
+        <item>Killjoy</item>
+        <item>Neon</item>
+        <item>Omen</item>
+        <item>Phoenix</item>
+        <item>Raze</item>
+        <item>Reyna</item>
+        <item>Sage</item>
+        <item>Skye</item>
+        <item>Sova</item>
+        <item>Viper</item>
+        <item>Yoru</item>
+    </string-array>
 </resources>
